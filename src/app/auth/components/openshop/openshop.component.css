@@ -1,0 +1,51 @@
+.row img {
+  width: 100%;
+  height: 595px;
+  filter: brightness(20%);
+  object-fit: cover;
+  object-position: center;
+}
+
+.rowcontent {
+  position: absolute;
+  top: 25%;
+}
+
+
+h3 {
+  color: #1ed760;
+}
+
+.btn {
+  background-color: #1ed760;
+  color: white;
+}
+
+
+a {
+  color: #1ed760;
+  text-decoration: none;
+}
+
+form {
+  font-weight: 600;
+}
+
+.form-label {
+  color: white;
+}
+
+@media screen and (max-width:600px) {
+  .rowcontent {
+    top: 30%;
+  }
+
+  .row img {
+    height: 715px;
+  }
+
+  .rowcontent h1 {
+    font-size: 40px;
+  }
+
+}

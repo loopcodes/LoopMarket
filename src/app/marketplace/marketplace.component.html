@@ -1,0 +1,44 @@
+
+<section class="market">
+    <div class="container">
+
+        <div class="char">
+            <canvas class="chart" id="my_first_chart"></canvas>
+        </div>
+        <h1 class="text text-center">Market <span><i class="fa-solid fa-bag-shopping"></i></span></h1> &nbsp; 
+
+
+        <div class="row mt-5">
+            <div class="col-lg-4 mb-5" *ngFor="let fd of foodDetails">
+    
+            <div class="box shadow-lg">
+                <div class="foodbox">
+                    <img src="{{fd.foodImg}}">
+                    <h1>{{fd.foodName}}</h1><hr>
+                    <p>{{fd.foodDetails}}</p>
+                    <p class="price">{{fd.foodPrice | currency:'N'}}</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>choose class</option>
+                        <option value="1">Individual</option>
+                        <option value="2">Business</option>
+                        <option value="3">Family</option>
+                        <option value="3">Industrial</option>
+                    </select>
+                    <div class="quan">
+                        <button type="button"(click)="minus()"><i class="fa fa-minus"></i></button>
+                    <input type="text" [value]="quantity">
+                    <button type="button" (click)="plus()"><i class="fa fa-plus"></i></button>
+                    </div>
+                    <br/>
+                    <a [routerLink]="['/openshop']" class="buybtn">Buy Now &nbsp;<i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+    
+            </div>
+        </div>
+    
+    </div>
+</section>
+
+
+

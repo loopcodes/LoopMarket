@@ -1,0 +1,24 @@
+.class {
+  height: 100%;
+  background-color: #4dff8b;
+  padding: 59.5px 100px;
+}
+
+.box {
+  color: white;
+  border-radius: 5%;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.bit {
+  font-weight: 600;
+  background-color: #1ed760;
+}
+
+@media screen and (max-width:600px) {
+  .class {
+    background-color: #4dff8b;
+    padding: 30px 10px;
+  }
+}

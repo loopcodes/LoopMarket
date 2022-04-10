@@ -1,0 +1,71 @@
+<section class="home">
+    <video src="../../assets/Customers Buying In A Market.mp4" autoplay muted loop></video>
+
+    <div class="homecontent">
+        <h1>Start Shopping On The No.1 Online <span routerLink="marketplace">Marketplace <i class="fa-solid fa-bag-shopping"></i></span></h1>
+        <a routerLink="class" class="btn btn-lg btn-light bat">Discover classes</a> &nbsp; 
+        <a routerLink="openshop" class="btn btn-lg bit">Openshop</a>
+    </div>
+    
+
+
+    <div class="conti mt-5">
+        <h1>Shop in three easy steps<span>...</span></h1><hr>
+        <div class="row mt-5">
+    
+            <div class="set col-lg-4 mt-2">
+                <div class="box">
+                    <h1>1.</h1>
+                    <img class="pic1" src="../../assets/undraw_authentication_re_svpt.svg">
+                    <p>Openshop/Register<span>.</span></p>
+                    <div class="in mt-2">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio et maxime, architecto molestiae excepturi animi ipsam! Quasi praesentium omnis molestiae culpa, asperiores excepturi aliquam ea error consequatur odio ex!</h6>
+                        <a routerLink="openshop" class="btn btn-sm mt-2 bot">Openshop</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class=" set col-lg-4 mt-2">
+                <div class="box">
+                    <h1>2.</h1>
+                    <img class="pic2" src="../../assets/undraw_gone_shopping_re_2lau.svg">
+                    <p>Visit the Market<span>.</span></p>
+                    <div class="in mt-2">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio et maxime, architecto molestiae excepturi animi ipsam! Quasi praesentium omnis molestiae culpa, asperiores excepturi aliquam ea error consequatur odio ex!</h6>
+                        <a routerLink="marketplace" class="btn btn-sm mt-2 bot">Marketplace</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="set col-lg-4 mt-2">
+                <div class="box">
+                    <h1>3.</h1>
+                    <img class="pic3" src="../../assets/undraw_on_the_way_re_swjt.svg">
+                    <p>Delivery in Minutes<span>.</span></p>
+                    <div class="in mt-2">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio et maxime, architecto molestiae excepturi animi ipsam! Quasi praesentium omnis molestiae culpa, asperiores excepturi aliquam ea error consequatur odio ex!</h6>
+                        <a routerLink="openshop" class="btn btn-sm mt-2 bot">Checkout</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <div class="cont">
+        <h1><span>Veggies</span> in Season <i class="fa-solid fa-seedling"></i></h1><hr>
+        <div class="row mt-5">
+            <div class="col-lg-3 mt-3" *ngFor="let hm of home">
+                <div class="food">
+                    <img src="{{hm.image}}" width="100%">
+                    <h1>{{hm.name}}</h1>
+                    <p>{{hm.price | currency: 'N'}}</p>   
+                </div>
+            </div>
+            <a routerLink="marketplace" class="btn btn-sm bet">View more</a>
+        </div>
+    </div>
+
+</section>
+

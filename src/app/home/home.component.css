@@ -1,0 +1,150 @@
+.home {
+  background-color: black;
+  height: 100%;
+}
+
+.home video {
+  width: 100%;
+  filter: brightness(50%);
+  object-fit: cover;
+  object-position: center;
+}
+
+.homecontent {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.homecontent h1 {
+  color: white;
+  font-size: 50px;
+}
+
+span {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+.homecontent a {
+  margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+  .homecontent {
+    top: 53%;
+    position: absolute;
+  }
+
+  .home video {
+    height: 750px;
+  }
+
+  .homecontent h1 {
+    font-size: 40px;
+  }
+}
+
+.bit {
+  background-color: #1ed760;
+}
+
+.bit:hover {
+  color: #1ed760;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.bat:hover {
+  color: white;
+  background-color: #1ed760;
+  transition: 0.5s ease;
+  border-color: #1ed760;
+}
+
+.conti {
+  color: white;
+  padding: 0px 50px;
+}
+
+.box {
+  color: white;
+  background-color: rgb(63, 62, 62);
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box .pic1 {
+  height: 200px;
+}
+
+.box .pic2 {
+  height: 150px;
+}
+
+.box .pic3 {
+  height: 100px;
+}
+
+.in {
+  background-color: #1ed760;
+  border-radius: 6px;
+  padding: 10px 10px;
+}
+
+
+.box p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.bot {
+  color: white;
+  background-color: black;
+}
+
+.bot:hover {
+  color: #1ed760;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.cont {
+  color: white;
+  padding: 59.9px 50px;
+}
+
+.food {
+  border-radius: 5%;
+  background-color: black;
+  padding: 10px 10px;
+}
+
+.food img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.food h1 {
+  color: #1ed760;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.bet {
+  color: white;
+  background-color: #1ed760;
+}
+
+.bet:hover {
+  color: #1ed760;
+  background-color: white;
+  transition: 0.5s ease;
+}
