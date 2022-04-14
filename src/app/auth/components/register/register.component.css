@@ -41,7 +41,7 @@ form {
 
 @media screen and (max-width:600px) {
   .rowcontent {
-    top: 5%;
+    top: 0%;
   }
 
   .row{
