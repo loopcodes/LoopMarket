@@ -10,6 +10,7 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { AboutComponent } from './about/about.component';
 import { AuthModule } from './auth/auth.module';
 import { ChartsComponent } from './charts/charts.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -21,6 +22,7 @@ import { ChartsComponent } from './charts/charts.component';
     MarketplaceComponent,
     AboutComponent,
     ChartsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

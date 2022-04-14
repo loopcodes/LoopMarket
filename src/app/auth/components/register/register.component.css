@@ -6,6 +6,7 @@
   object-position: center;
 }
 
+
 .rowcontent {
   position: absolute;
   top: 20%;
@@ -39,12 +40,12 @@ form {
 
 
 @media screen and (max-width:600px) {
-  .row img {
-    height: 715px;
+  .rowcontent {
+    top: 15%;
   }
 
-  .rowcontent {
-    top: 35%;
+  .row{
+    position: absolute;
   }
 
   .rowcontent h1 {

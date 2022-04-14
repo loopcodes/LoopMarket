@@ -8,7 +8,7 @@
 
 .rowcontent {
   position: absolute;
-  top: 25%;
+  top: 27%;
 }
 
 
@@ -37,15 +37,14 @@ form {
 
 @media screen and (max-width:600px) {
   .rowcontent {
-    top: 35%;
+    top: 20%;
   }
 
-  .row img {
-    height: 715px;
+  .row{
+    position: absolute;
   }
 
   .rowcontent h1 {
     font-size: 40px;
   }
-
 }

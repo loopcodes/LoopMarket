@@ -3,8 +3,10 @@
 body {
   margin: 0px;
   padding: 0px;
+  height: 100vh;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
 
 .ng-valid[required],

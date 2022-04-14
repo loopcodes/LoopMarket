@@ -21,37 +21,3 @@ span {
 }
 
 
-
-footer {
-  background: black;
-  padding: 10px 23px;
-  margin-top: -7px;
-}
-
-footer .foot {
-  margin-left: 40%;
-}
-
-footer span {
-  color: whitesmoke;
-}
-
-footer span a {
-  color: rgb(23, 194, 137);
-  text-decoration: none;
-}
-
-footer span a:hover {
-  text-decoration: underline;
-}
-
-
-
-
-
-
-@media screen and (max-width:600px) {
-  footer .foot {
-    margin-left: 5%;
-  }
-}

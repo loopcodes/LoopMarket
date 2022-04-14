@@ -1,0 +1,29 @@
+.footer {
+    background: black;
+    padding: 20px 10px;
+    position: sticky;
+    overflow: hidden;
+    top: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: #1ed760;
+}
+
+a {
+    color: rgb(23, 194, 137);
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+
+}
