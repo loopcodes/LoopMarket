@@ -33,8 +33,7 @@ span {
 
 @media screen and (max-width:600px) {
   .homecontent {
-    top: 53%;
-    position: absolute;
+    top: 65%;
   }
 
   .home video {
