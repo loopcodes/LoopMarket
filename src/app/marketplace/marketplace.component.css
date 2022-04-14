@@ -63,7 +63,7 @@ button {
 
 .quan {
   margin-top: -30px;
-  margin-left: 65%;
+  margin-left: 63%;
 }
 
 .form-select {
@@ -84,12 +84,11 @@ span {
   font-size: 20px;
 }
 
-canvas .chart {
-  width: 100%;
-}
 
 .char {
-  height: 600px;
+  width: 100%;
+  margin-top: -2%;
+  height: 400px;
 }
 
 @media screen and (max-width:600px) {
@@ -98,6 +97,7 @@ canvas .chart {
   }
 
   .char {
-    height: 200px;
+    width: 100%;
+    height: 300px;
   }
 }

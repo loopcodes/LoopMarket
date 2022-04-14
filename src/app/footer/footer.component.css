@@ -1,5 +1,6 @@
 .footer {
     background: black;
+    color: white;
     padding: 20px 10px;
     position: sticky;
     overflow: hidden;
@@ -7,7 +8,7 @@
 }
 
 h1{
-    color: white;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -16,14 +17,22 @@ span {
 }
 
 a {
-    color: rgb(23, 194, 137);
+    color: #1ed760;
     text-decoration: none;
+    padding: 0px 5px;
+    font-size: 17px;
 }
 
-footer span a:hover {
-    text-decoration: underline;
+a:hover {
+    color: white;
+}
+
+i{
+    padding: 0px 10px;
 }
 
 @media screen and (max-width:600px) {
-
+    .con{
+        margin-top: 2px;
+    }
 }

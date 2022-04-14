@@ -31,6 +31,7 @@ loadChart(): void{
     },
     options: {
       responsive: true,
+      maintainAspectRatio:false,
       scales: {
         y: {
           grid: {
@@ -115,7 +116,7 @@ loadChart(): void{
     {
       id: 8,
       foodName:"Fresh Green Peas",
-      foodDetails:"Funfact: Green peas have an impressive nutrition profile. Their calorie content is fairly low, with only 62 calories per 1/2-cup (170-gram) serving. About 70% of those calories come from carbohydrates. They are also low in fat.",
+      foodDetails:"Funfact: Green peas have an impressive nutrition profile. Their calorie content is fairly low, with only 62 calories per 1/2-cup (170-gram) serving. About 70% of those calories come from carbohydrates.",
       foodPrice:50,
       foodImg:"../../assets/green.jpg",
     },
