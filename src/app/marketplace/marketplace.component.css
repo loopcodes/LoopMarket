@@ -1,7 +1,6 @@
 .market {
   height: 100%;
-  color: black;
-  background-color: whitesmoke;
+  background-color: black;
   padding: 56px 100px;
 }
 
@@ -67,17 +66,21 @@ button {
   margin-left: 63%;
 }
 
+input {
+  width: 40%;
+}
+
 .form-select {
   width: 60%;
 }
 
 .text {
   margin-top: 30px;
-  color: black;
+  color: #1ed760;
 }
 
 span {
-  color: #1ed760;
+  color: white;
 }
 
 .price {
