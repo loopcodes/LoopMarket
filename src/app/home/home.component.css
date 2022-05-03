@@ -1,5 +1,6 @@
 .home {
-  background-color: black;
+  background-color: whitesmoke;
+  color: black;
   height: 100%;
 }
 
@@ -63,7 +64,7 @@ span {
 }
 
 .conti {
-  color: white;
+  color: black;
   padding: 0px 20px;
 }
 
@@ -114,13 +115,13 @@ span {
 }
 
 .cont {
-  color: white;
+  color: black;
   padding: 59.9px 20px;
 }
 
 .food {
   border-radius: 5%;
-  background-color: black;
+  
   padding: 10px 10px;
 }
 
@@ -144,6 +145,6 @@ span {
 
 .bet:hover {
   color: #1ed760;
-  background-color: white;
+  background-color: black;
   transition: 0.5s ease;
 }
