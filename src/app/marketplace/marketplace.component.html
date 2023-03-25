@@ -15,8 +15,10 @@
                 <div class="foodbox">
                     <img src="{{fd.foodImg}}">
                     <h1>{{fd.foodName}}</h1><hr>
-                    <p>{{fd.foodDetails}}</p>
-                    <p class="price">{{fd.foodPrice | currency:'N'}}</p>
+                    <div class="info">
+                        <p>{{fd.foodDetails}}</p>
+                    </div>
+                    <p class="price">{{fd.foodPrice | currency:'&#8358;'}}</p>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>choose class</option>
                         <option value="1">Individual</option>
@@ -24,16 +26,28 @@
                         <option value="3">Family</option>
                         <option value="3">Industrial</option>
                     </select>
-                    <div class="quan">
+                    <!--<div class="quan">
                         <button type="button"(click)="plus()"><i class="fa fa-plus"></i></button>
                         <input type="text" [value]="quantity">
                         <button type="button" (click)="minus()"><i class="fa fa-minus"></i></button>
-                    </div>
+                    </div>-->
                     <br/>
                     <a [routerLink]="['/openshop']" class="buybtn">Buy Now &nbsp;<i class="fa-solid fa-bag-shopping"></i></a>
                 </div>
             </div>
     
+            </div>
+        </div>
+
+        <div class="cont">
+            <h1><span>Veggies</span> in Season <i class="fa-solid fa-seedling"></i></h1><hr>
+            <div class="row mt-5">
+                <div class="col-lg-3 mt-3" *ngFor="let hm of home">
+                    <div class="food">
+                        <img src="{{hm.image}}" width="100%">
+                        <h1>{{hm.name}}</h1>  
+                    </div>
+                </div>
             </div>
         </div>
     

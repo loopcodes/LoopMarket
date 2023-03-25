@@ -62,10 +62,7 @@ span {
   border-color: #1ed760;
 }
 
-.conti {
-  color: white;
-  padding: 0px 20px;
-}
+
 
 .box {
   color: white;
@@ -111,30 +108,6 @@ span {
   color: #1ed760;
   background-color: white;
   transition: 0.5s ease;
-}
-
-.cont {
-  color: white;
-  padding: 59.9px 20px;
-}
-
-.food {
-  border-radius: 5%;
-  background-color: black;
-  padding: 10px 10px;
-}
-
-.food img {
-  height: 200px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.food h1 {
-  color: #1ed760;
-  font-size: 18px;
-  margin-top: 20px;
-  font-weight: bold;
 }
 
 .bet {
